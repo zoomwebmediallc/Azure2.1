@@ -182,6 +182,19 @@ h6 {
   }
 }
 
+@media (max-width:600px) {
+  .header .logo img {
+    max-height: 45px;
+    margin-right: 8px;
+  }
+
+  .header .btn-getstarted {
+    order: 2;
+    margin: 0 10px 0 0;
+    padding: 6px 5px;
+  }
+}
+
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
@@ -432,6 +445,12 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+  }
+}
+
+@media (max-width:600px) {
+  .mobile-nav-toggle {
+    margin-right: 0px;
   }
 }
 
