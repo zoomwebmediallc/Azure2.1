@@ -3806,3 +3806,25 @@ section,
   font-size: 22px;
   cursor: pointer;
 }
+
+.read-more-btn,
+.read-more-btn:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 26px;
+  margin: 0;
+  border-radius: 4px;
+  transition: 0.3s;
+  border: none;
+}
+
+.read-more-btn a{
+  color: var(--contrast-color);
+}
+
+.read-more-btn:hover,
+.read-more-btn:focus:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}

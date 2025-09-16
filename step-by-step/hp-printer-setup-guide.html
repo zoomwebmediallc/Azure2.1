@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Azure Protections | Service Details</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/67c2352c61aa0c190e3e32bb/1il79vdm6';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.webp" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <!-- Bing UET Tag -->
+    <script>
+        (function (w, d, t, r, u) {
+            var f, n, i;
+            w[u] = w[u] || [], f = function () {
+                var o = { ti: "187209812", enableAutoSpaTracking: true };
+                o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
+            },
+                n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () {
+                    var s = this.readyState;
+                    s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+                },
+                i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
+        })(window, document, "script", "//bat.bing.com/bat.js", "uetq");
+    </script>
+
+    <style>
+        @media only screen and (max-width: 991px) {
+            .mobile-brand {
+                width: 90px;
+                display: none !important;
+            }
+        }
+
+        @media only screen and (max-width:767px) {
+            .navbar-option-account a {
+                font-size: 18px !important;
+            }
+
+            .mobile-nav.mean-container {
+                border-bottom: 0;
+                padding: 25px !important;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .navbar-option-item {
+                width: 325px !important;
+            }
+        }
+
+        .printer-banner-section {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 4%;
+            overflow: hidden;
+            height: 500px;
+        }
+
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .printer-banner-content,
+        .printer-image {
+            position: relative;
+            z-index: 5;
+        }
+
+        .printer-banner-content h1 {
+            font-size: 3.2rem;
+            max-width: 550px;
+        }
+
+        .banner-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background-color: #fff;
+            color: #0071ce;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+
+        .printer-image {
+            display: none;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .printer-banner-section {
+                flex-direction: column;
+                height: auto;
+                padding: 40px 20px;
+                text-align: center;
+            }
+
+            .printer-image {
+                display: block;
+                margin-top: 30px;
+            }
+        }
+
+        .step-card {
+            background: rgba(255, 255, 255, 0.95);
+            margin-bottom: 25px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .step-header {
+            background: #338dfb;
+            color: white;
+            padding: 20px;
+            font-size: 1.3em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .step-number {
+            background: rgba(255, 255, 255, 0.2);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .step-content {
+            padding: 25px;
+        }
+
+        .step-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .step-list li {
+            margin-bottom: 12px;
+            padding-left: 30px;
+            position: relative;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .step-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* .alternative-methods {
+        background: linear-gradient(45deg, #e74c3c, #c0392b);
+    } */
+
+        .method-group {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .method-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        .method-steps {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .method-steps li {
+            margin-bottom: 8px;
+            padding-left: 25px;
+            position: relative;
+            color: #666;
+        }
+
+        .method-steps li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .warning-box {
+            background: rgba(231, 76, 60, 0.1);
+            border: 2px solid #e74c3c;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .warning-title {
+            color: #e74c3c;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3498db, #2980b9);
+            z-index: 1000;
+            transition: width 0.3s ease;
+        }
+
+        .completion-badge {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #27ae60;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .hp-logo {
+            display: inline-block;
+            background: #0073e6;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .step-header {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .step-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body class="service-details-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <img src="../assets/img/Asset-1.webp" alt="Logo">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#services">Services</a></li>
+                    <li><a href="../index.html#features">Why Choose Us</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <!-- Header Button -->
+            <p id="bookBtn" class="btn-getstarted">Book an appointment</p>
+
+        </div>
+    </header>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <section class="printer-banner-section mb-4">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="../assets/img/Azure-protection header.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="printer-banner-content">
+            <h1 class="fw-bold text-light">Get your HP Printer<br>setup done today by our Experts</h1>
+            <a href="tel:8883617786" class="banner-btn">Connect with Us</a>
+        </div>
+
+        <div class="printer-image">
+            <img src="../assets/img/printers-products.webp" alt="HP Printers" style="width: 100%; height: auto;">
+        </div>
+    </section>
+
+
+    <div class="container mt-2">
+        <div class="section-wrap-title text-center mb-40">
+            <h2>Set up your HP printer with any device easily.</h2>
+            <p>follow our step-by-step guide</p>
+        </div>
+
+        <div class="step-card" data-step="1">
+            <div class="step-header">
+                <div class="step-number">1</div>
+                <div>Unpack and Prepare the Printer</div>
+            </div>
+            <div class="step-content">
+                <ul class="step-list">
+                    <li>Remove all packaging materials from the printer</li>
+                    <li>Connect the power cord and turn on the printer</li>
+                    <li>Install the toner cartridge as per the instructions provided</li>
+                </ul>
+                <div class="warning-box">
+                    <div class="warning-title">⚠️ Important</div>
+                    <p>Ensure all protective tape and packaging materials are completely removed before powering on.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step-card" data-step="2">
+            <div class="step-header">
+                <div class="step-number">2</div>
+                <div>Load Paper</div>
+            </div>
+            <div class="step-content">
+                <ul class="step-list">
+                    <li>Open the paper input tray</li>
+                    <li>Adjust the paper guides to fit the size of the paper</li>
+                    <li>Place the paper into the tray and close it</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step-card" data-step="3">
+            <div class="step-header">
+                <div class="step-number">3</div>
+                <div>Install the HP Smart App</div>
+            </div>
+            <div class="step-content">
+                <ul class="step-list">
+                    <li>Download and install the HP Smart app on your computer or mobile device</li>
+                    <li>Ensure your device is connected to the same Wi-Fi network you intend to connect the printer to
+                    </li>
+                </ul>
+                <div class="warning-box">
+                    <div class="warning-title">📱 Download Links</div>
+                    <p>Available on App Store, Google Play, and HP's official website for desktop versions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="step-card" data-step="4">
+            <div class="step-header">
+                <div class="step-number">4</div>
+                <div>Connect the Printer to Wi-Fi Using HP Smart</div>
+            </div>
+            <div class="step-content">
+                <ul class="step-list">
+                    <li>Open the HP Smart app</li>
+                    <li>Tap the plus sign (+) to add a new printer</li>
+                    <li>Follow the on-screen instructions to connect the printer to your Wi-Fi network</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step-card" data-step="5">
+            <div class="step-header alternative-methods">
+                <div class="step-number">5</div>
+                <div>Alternative Connection Methods</div>
+            </div>
+            <div class="step-content">
+                <div class="method-group">
+                    <div class="method-title">🔒 Wi-Fi Protected Setup (WPS)</div>
+                    <ul class="method-steps">
+                        <li>Press the WPS button on your router</li>
+                        <li>Within two minutes, press and hold the Wireless button on the printer until the wireless
+                            light starts blinking</li>
+                        <li>The printer will automatically connect to the network</li>
+                    </ul>
+                </div>
+
+                <div class="method-group">
+                    <div class="method-title">🔌 Ethernet Connection</div>
+                    <ul class="method-steps">
+                        <li>Connect an Ethernet cable from the printer to your router</li>
+                        <li>The printer will automatically obtain an IP address and connect to the network</li>
+                    </ul>
+                </div>
+
+                <div class="method-group">
+                    <div class="method-title">🔗 USB Connection</div>
+                    <ul class="method-steps">
+                        <li>Connect a USB cable from the printer to your computer</li>
+                        <li>Follow the prompts in the HP Smart app to complete the setup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="step-card" data-step="6">
+            <div class="step-header troubleshooting">
+                <div class="step-number">6</div>
+                <div>Restore Network Settings (If Needed)</div>
+            </div>
+            <div class="step-content">
+                <ul class="step-list">
+                    <li>Press and hold the Information button for 3 seconds</li>
+                    <li>Press and hold the Wireless and Cancel buttons simultaneously until the printer restarts</li>
+                    <li>The wireless light will blink, indicating the printer is in setup mode</li>
+                </ul>
+                <div class="warning-box">
+                    <div class="warning-title">🔧 Troubleshooting</div>
+                    <p>Use this method only if you're experiencing connection issues or need to reset network settings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="completion-badge" id="completionBadge">
+        🎉 Setup Complete!
+    </div>
+
+
+    <!-- Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2>Book an Appointment</h2>
+            <form id="scheduleForm">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"
+                    placeholder="Enter 10-digit number">
+
+                <label for="service">Service Required</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Select a Service --</option>
+                    <option value="printer">Printer Service</option>
+                    <option value="router">Router Service</option>
+                    <option value="camera">Camera Installation</option>
+                    <option value="alarm">Door Alarm Systems</option>
+                </select>
+
+                <label for="issue">Issue with Device</label>
+                <textarea id="issue" name="issue" rows="3" placeholder="Describe the issue briefly..."></textarea>
+
+                <label for="consultDate">Select Date</label>
+                <input type="date" id="consultDate" name="consultDate" required>
+
+                <label for="consultTime">Select Time</label>
+                <input type="time" id="consultTime" name="consultTime" required>
+
+                <button type="submit" class="btn-primary">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Progress tracking
+        let completedSteps = 0;
+        const totalSteps = 6;
+
+        function updateProgress() {
+            const progress = (completedSteps / totalSteps) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+
+            if (completedSteps === totalSteps) {
+                document.getElementById('completionBadge').style.display = 'block';
+            }
+        }
+
+        // Add click handlers to step cards
+        document.querySelectorAll('.step-card').forEach(card => {
+            card.addEventListener('click', function () {
+                if (!this.classList.contains('completed')) {
+                    this.classList.add('completed');
+                    this.style.opacity = '0.7';
+                    completedSteps++;
+                    updateProgress();
+                }
+            });
+        });
+
+        // Smooth scrolling for better UX
+        document.querySelectorAll('.step-card').forEach((card, index) => {
+            card.style.animationDelay = (index * 0.1) + 's';
+        });
+
+        // Initialize progress
+        updateProgress();
+    </script>
+
+    <footer id="footer" class="footer position-relative dark-background">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="../index.html" class="logo d-flex align-items-center">
+                        <img src="../assets/img/Asset-2.webp" alt="logo">
+                        <!-- <span class="sitename">AzureProtection</span> -->
+                    </a>
+                    <p>We provide convenient, on-site assistance designed to make setup and troubleshooting simple. Our
+                        approach
+                        focuses on reliable service, clear guidance, and practical solutions—delivered right where you
+                        need them.
+                    </p>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="../index.html#features">Why Choose Us</a></li>
+                        <li><a href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4></h4>
+                    <ul>
+                        <li><a href="../terms-and-conditions.html">Terms of service</a></li>
+                        <li><a href="../privacy-policy.html">Privacy policy</a></li>
+                        <li><a href="../disclaimet.html">Disclaimer</a></li>
+                        <li><a href="../refund-policy.html">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>5400 S Williamson Blvd,</p>
+                    <p>Port Orange, Florida 32128</p>
+                    <p>United States</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>(888) 361-7786</span></p>
+                    <p><strong>Email:</strong> <span>support@azureprotections.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© 2025 <span>Copyright</span> <strong class="px-1 sitename">Azure Protections</strong> <span>All Rights
+                    Reserved</span></p>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <script>
+        const modal = document.getElementById("scheduleModal");
+        const closeBtn = document.querySelector(".closeBtn");
+        const form = document.getElementById("scheduleForm");
+
+        // Trigger buttons
+        const bookBtn = document.getElementById("bookBtn");
+        const scheduleBtn = document.getElementById("scheduleBtn");
+
+        [bookBtn, scheduleBtn].forEach(btn => {
+            if (btn) btn.onclick = () => modal.style.display = "block";
+        });
+
+        closeBtn.onclick = () => modal.style.display = "none";
+        window.onclick = (e) => { if (e.target === modal) modal.style.display = "none"; };
+
+        form.onsubmit = (e) => {
+            e.preventDefault();
+            const name = document.getElementById("name").value;
+            const phone = document.getElementById("phone").value;
+            const service = document.getElementById("service").value;
+            const issue = document.getElementById("issue").value;
+            const date = document.getElementById("consultDate").value;
+            const time = document.getElementById("consultTime").value;
+
+            alert(
+                `Booking Confirmed ✅\n\nName: ${name}\nPhone: ${phone}\nService: ${service}\nIssue: ${issue}\nDate: ${date}\nTime: ${time}`
+            );
+
+            modal.style.display = "none";
+            form.reset();
+        };
+    </script>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+    <!-- Main JS File -->
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
